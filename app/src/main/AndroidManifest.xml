@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.surah.alquransmallsurah">
+
+
+
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+
+
+    <application
+        tools:node="replace"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="Al-Quran 16 Small Surah "
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.surah.alquransmallsurah.fil"
+            android:parentActivityName="com.surah.alquransmallsurah.MainActivity"
+            />
+        <activity
+            android:name="com.surah.alquransmallsurah.nas"
+            android:parentActivityName="com.surah.alquransmallsurah.MainActivity" />
+        <activity
+            android:name="com.surah.alquransmallsurah.falaq"
+            android:parentActivityName="com.surah.alquransmallsurah.MainActivity" />
+        <activity
+            android:name="com.surah.alquransmallsurah.akelas"
+            android:parentActivityName="com.surah.alquransmallsurah.MainActivity" />
+        <activity
+            android:name="com.surah.alquransmallsurah.masad"
+            android:parentActivityName="com.surah.alquransmallsurah.MainActivity" />
+        <activity
+            android:name="com.surah.alquransmallsurah.nasor"
+            android:parentActivityName="com.surah.alquransmallsurah.MainActivity" />
+        <activity
+            android:name="com.surah.alquransmallsurah.kafirun"
+            android:parentActivityName="com.surah.alquransmallsurah.MainActivity" />
+        <activity
+            android:name="com.surah.alquransmallsurah.kawser"
+            android:parentActivityName="com.surah.alquransmallsurah.MainActivity" />
+        <activity
+            android:name="com.surah.alquransmallsurah.mamun"
+            android:parentActivityName="com.surah.alquransmallsurah.MainActivity" />
+        <activity
+            android:name="com.surah.alquransmallsurah.quraesh"
+            android:parentActivityName="com.surah.alquransmallsurah.MainActivity" />
+        <activity
+            android:name="com.surah.alquransmallsurah.hamzah"
+            android:parentActivityName="com.surah.alquransmallsurah.MainActivity" />
+        <activity
+            android:name="com.surah.alquransmallsurah.asr"
+            android:parentActivityName="com.surah.alquransmallsurah.MainActivity" />
+        <activity
+            android:name="com.surah.alquransmallsurah.takasur"
+            android:parentActivityName="com.surah.alquransmallsurah.MainActivity" />
+        <activity
+            android:name="com.surah.alquransmallsurah.Al_Qariah"
+            android:parentActivityName="com.surah.alquransmallsurah.MainActivity" />
+        <activity
+            android:name="com.surah.alquransmallsurah.surah_adiyat"
+            android:parentActivityName="com.surah.alquransmallsurah.MainActivity" />
+        <activity android:name="com.surah.alquransmallsurah.Al_Ala" />
+        <activity
+            android:name="com.surah.alquransmallsurah.feedback"
+            android:parentActivityName="com.surah.alquransmallsurah.MainActivity" />
+        <activity
+            android:name="com.surah.alquransmallsurah.Al_fatiha"
+            android:parentActivityName="com.surah.alquransmallsurah.MainActivity" />
+        <activity
+            android:name="com.surah.alquransmallsurah.Alfatiha"
+            android:label="@string/title_activity_alfatiha"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.surah.alquransmallsurah.AnotherActivity"
+            android:parentActivityName="com.surah.alquransmallsurah.MainActivity"
+
+            />
+        <activity
+            android:name="com.surah.alquransmallsurah.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2644788057805115~3223128437"/>
+
+
+    </application>
+
+</manifest>
